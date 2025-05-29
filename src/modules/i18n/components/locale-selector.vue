@@ -1,6 +1,7 @@
 <script setup lang="ts">
 const { availableLocales, locale } = useI18n();
-
+// Set default language to Chinese
+locale.value = 'zh';
 const localesLong: Record<string, string> = {
   en: 'English',
   de: 'Deutsch',
