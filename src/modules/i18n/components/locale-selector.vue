@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup lang="zh">
 const { availableLocales, locale } = useI18n();
 
 const localesLong: Record<string, string> = {
